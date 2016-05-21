@@ -13,10 +13,12 @@
 下载   
 `npm install EventUtil`   
 
-使用   
-es5 `var EventUtil = require('EventUtil');`   
+使用方法    
+1. es5下  
+ `var EventUtil = require('EventUtil');`   
 
-es6 `import EventUtil form 'EventUtil';`
+2. es6下   
+ `import EventUtil form 'EventUtil';`
 
 ## EventUtil对象全见  
 以下EventUtil对象代码亲测可用，并包含详细注释
