@@ -12,9 +12,9 @@
  * @Description:
  * @Copyright(©) 2015 by xiaomo.
  **/
-import EventUtil from 'EventUtil';
+import EventUtil from "EventUtil";
 var btn = document.getElementById('btn');
-var handler = function (event) {
-   alert("测试EventUtil");
+var handler = function () {
+    alert("测试EventUtil");
 };
 EventUtil.addHandler(btn, "click", handler);
