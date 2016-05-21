@@ -11,7 +11,7 @@
 ## 使用说明
 
 下载   
-`npm install EventUtil`   
+`npm install --save EventUtil`或者使用阿里数据源`cnpm install --save EventUtil`   
 
 使用方法    
 * es5下  
