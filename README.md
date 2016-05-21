@@ -8,6 +8,16 @@
 文章主要内容参考书籍为《JavaScript高级程序设计》（[美]Nicholas C.Zakas）
 若有纰漏，欢迎您留言指正
 
+## 使用说明
+
+下载   
+`npm install EventUtil`   
+
+使用   
+es5 `var EventUtil = require('EventUtil');`   
+
+es6 `import EventUtil form 'EventUtil';`
+
 ## EventUtil对象全见  
 以下EventUtil对象代码亲测可用，并包含详细注释
 
