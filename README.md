@@ -13,7 +13,7 @@
 下载   
 `npm install --save EventUtil`或者使用阿里数据源`cnpm install --save EventUtil`   
 
-使用方法    
+使用    
 * es5下  
  `var EventUtil = require('EventUtil');`   
 * es6下   
