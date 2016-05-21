@@ -3,3 +3,6 @@ dist
 coverage
 .idea
 bower_components
+example/node_modules
+example/dist
+npm*log*

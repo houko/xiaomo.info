@@ -1,0 +1,24 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack --progress --colors --profile",
+    "start": "webpack-dev-server --progress --color"
+  },
+  "keywords": ["event-util"],
+  "author": "xiaomo",
+  "license": "MIT",
+  "dependencies": {
+    "EventUtil": "^1.0.4",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

@@ -9,7 +9,7 @@
     * @email: hupengbest@163.com
     * @QQ_NO: 83387856
     * @Date: 2016/5/21 15:20
-    * @Description:
+    * @Description: 入口文件
     * @Copyright(©) 2015 by xiaomo.
     **/
 require('./lib/EventUtil.js');

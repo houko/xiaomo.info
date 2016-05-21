@@ -11,13 +11,13 @@
 ## 使用说明
 
 下载   
-`npm install EventUtil`   
+`npm install event-util`   
 
 使用方法    
 * es5下  
- `var EventUtil = require('EventUtil');`   
+ `var EventUtil = require('event-util');`   
 * es6下   
- `import EventUtil form 'EventUtil';`   
+ `import EventUtil form 'event-util';`   
 
 ## EventUtil对象全见  
 以下EventUtil对象代码亲测可用，并包含详细注释
