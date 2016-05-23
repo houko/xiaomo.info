@@ -1,10 +1,10 @@
 {
   "name": "EventUtil",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "a simple 、common Util method for DOM2 and DOM3,in order to change the difference for different browsers",
   "main": "index.js",
   "scripts": {
-    "createtag": "git tag -a 1.0.10 -m Release^-^",
+    "createtag": "git tag -a 1.0.11 -m Release^-^",
     "pushtag": "git push origin --tags",
     "tag": "npm run createtag && npm run pushtag"
   },
