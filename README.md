@@ -1,3 +1,15 @@
+[![EventUtil](http://static.xiaomo.info/images/avatar.png)](https://github.com/qq83387856)
+
+
+[![NPM version][npm-image]][npm-url][![Downloads][downloads-image]][downloads-url]
+
+[![NPM][nodei-image]][nodei-url]
+
+[![BADGINATOR][badginator-image]][badginator-url]
+
+[documentation](https://npm.taobao.org/package/EventUtil)
+
+
 ## 前言：什么是EventUtil？  
 
 在JavaScript中，DOM0级、DOM2级与旧版本IE(8-)为对象添加事件的方法不同
@@ -542,5 +554,32 @@ EventUtil.addHandler(textbox,"keypress",function(event){
    alert(EventUtil.getCharCode(event)); //重点语句，弹出窗口中显示按下按键代表字符的ASCII码
 });
 ```
+
+[travis-url]: https://travis-ci.org/EventUtil/EventUtil
+[travis-image]: https://img.shields.io/travis/EventUtil/EventUtil.svg
+[appveyor-url]: https://ci.appveyor.com/project/sokra/EventUtil/branch/master
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/github/EventUtil/EventUtil?svg=true
+[coveralls-url]: https://coveralls.io/r/EventUtil/EventUtil/
+[coveralls-image]: https://img.shields.io/coveralls/EventUtil/EventUtil.svg
+[npm-url]: https://www.npmjs.com/package/EventUtil
+[npm-image]: https://img.shields.io/npm/v/EventUtil.svg
+[downloads-image]: https://img.shields.io/npm/dm/EventUtil.svg
+[downloads-url]: https://www.npmjs.com/package/EventUtil
+[david-url]: https://david-dm.org/EventUtil/EventUtil
+[david-image]: https://img.shields.io/david/EventUtil/EventUtil.svg
+[david-dev-url]: https://david-dm.org/EventUtil/EventUtil#info=devDependencies
+[david-dev-image]: https://david-dm.org/EventUtil/EventUtil/dev-status.svg
+[david-peer-url]: https://david-dm.org/EventUtil/EventUtil#info=peerDependencies
+[david-peer-image]: https://david-dm.org/EventUtil/EventUtil/peer-status.svg
+[nodei-image]: https://nodei.co/npm/EventUtil.png?downloads=true&downloadRank=true&stars=true
+[nodei-url]: https://www.npmjs.com/package/EventUtil
+[donate-url]: http://sokra.github.io/
+[donate-image]: https://img.shields.io/badge/donate-sokra-brightgreen.svg
+[gratipay-url]: https://gratipay.com/EventUtil/
+[gratipay-image]: https://img.shields.io/gratipay/EventUtil.svg
+[gitter-url]: https://gitter.im/EventUtil/EventUtil
+[gitter-image]: https://img.shields.io/badge/gitter-EventUtil%2FEventUtil-brightgreen.svg
+[badginator-image]: https://badginator.herokuapp.com/EventUtil/EventUtil.svg
+[badginator-url]: https://github.com/defunctzombie/badginator
 
 > 摘自 [黄映焜的博客园](http://www.cnblogs.com/hykun/p/EventUtil.html)

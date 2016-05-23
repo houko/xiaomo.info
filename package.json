@@ -15,8 +15,5 @@
   "author": "xiaomo 龙三 黄映焜",
   "license": "MIT",
   "webSite": "http//xiaomo.info",
-  "github": "https://github.com/qq83387856/EventUtil",
-  "devDependencies": {
-    "webpack": "^1.13.1"
-  }
+  "github": "https://github.com/qq83387856/EventUtil"
 }
