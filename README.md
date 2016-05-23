@@ -5,8 +5,6 @@
 
 [![NPM][nodei-image]][nodei-url]
 
-[![BADGINATOR][badginator-image]][badginator-url]
-
 [documentation](https://npm.taobao.org/package/EventUtil)
 
 
