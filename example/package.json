@@ -7,11 +7,13 @@
     "build": "webpack --progress --colors --profile",
     "start": "webpack-dev-server --progress --color"
   },
-  "keywords": ["event-util"],
+  "keywords": [
+    "EventUtil"
+  ],
   "author": "xiaomo",
   "license": "MIT",
   "dependencies": {
-    "EventUtil": "^1.0.4",
+    "EventUtil": "^1.0.9",
     "bootstrap": "^3.3.6"
   },
   "devDependencies": {
