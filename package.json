@@ -1,16 +1,16 @@
 {
   "name": "EventUtil",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "a simple 、common Util method for DOM2 and DOM3,in order to change the difference for different browsers",
   "main": "index.js",
   "scripts": {
-    "publish":"npm publish",
-    "createtag": "git tag -a 1.0.9 -m Release^-^",
+    "createtag": "git tag -a 1.0.10 -m Release^-^",
     "pushtag": "git push origin --tags",
     "tag": "npm run createtag && npm run pushtag"
   },
   "keywords": [
-    "event-util"
+    "EventUtil",
+    "browsers"
   ],
   "author": "xiaomo 龙三 黄映焜",
   "license": "MIT",
