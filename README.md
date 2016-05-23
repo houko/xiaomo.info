@@ -1,6 +1,3 @@
-[![EventUtil](http://static.xiaomo.info/images/avatar.png)](https://github.com/qq83387856)
-
-
 [![NPM version][npm-image]][npm-url][![Downloads][downloads-image]][downloads-url]
 
 [![NPM][nodei-image]][nodei-url]
@@ -570,7 +567,7 @@ EventUtil.addHandler(textbox,"keypress",function(event){
 [david-peer-url]: https://david-dm.org/EventUtil/EventUtil#info=peerDependencies
 [david-peer-image]: https://david-dm.org/EventUtil/EventUtil/peer-status.svg
 [nodei-image]: https://nodei.co/npm/EventUtil.png?downloads=true&downloadRank=true&stars=true
-[nodei-url]: https://www.npmjs.com/package/EventUtil
+[nodei-url]: https://github.com/qq83387856/EventUtil
 [donate-url]: http://sokra.github.io/
 [donate-image]: https://img.shields.io/badge/donate-sokra-brightgreen.svg
 [gratipay-url]: https://gratipay.com/EventUtil/
