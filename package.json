@@ -1,7 +1,7 @@
 {
   "name": "EventUtil",
   "version": "1.0.7",
-  "description": "在JavaScript中，DOM0级、DOM2级与旧版本IE(8-)为对象添加事件的方法不同，为了以跨浏览器的方式处理事件，需要编写一段“通用代码”，即跨浏览器的事件处理程序习惯上，这个方法属于一个名为EventUtil的对象编写并使用该对象后，可保证处理事件的代码能在大多数浏览器下一致的运行",
+  "description": "a simple 、common Util method for DOM2 and DOM3,in order to change the difference for different browsers",
   "main": "index.js",
   "scripts": {
     "publish":"npm publish",
