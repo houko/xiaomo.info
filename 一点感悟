@@ -6,7 +6,7 @@
 
     // lib/EventUtil.js
     var EventUtil = {
-        //code....
+        //code....   
     }
     //index.js
     require('./lib/EventUtil.js');
