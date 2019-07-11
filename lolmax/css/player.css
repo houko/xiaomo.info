@@ -1,0 +1,123 @@
+::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-default {
+    background-color: #060606;
+    border-color: #040404;
+}
+
+#nav-menu {
+    padding: 0;
+    margin-bottom: -2px;
+}
+
+#nav-menu > div > div.navbar-collapse.collapse > ul > li {
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: -2px;
+}
+
+#nav-menu > div > div.navbar-collapse.collapse > ul > li a:hover {
+    color: #fff;
+    background: rgba(33, 33, 33, .7);
+}
+
+#nav-menu > div > div.navbar-collapse.collapse > ul > li.active > a {
+    color: #fff;
+    background: -webkit-linear-gradient(top, rgba(33, 33, 33, 1), rgba(20, 20, 30, 1));
+    padding: 15px 25px;
+}
+
+#nav-menu > div > div.navbar-collapse.collapse > ul li {
+    padding: 0;
+}
+
+.main {
+    background: rgba(33, 33, 33, 1);
+    width: 100%;
+    height: 960px;
+}
+
+.main .active, ul li a:hover {
+    text-decoration: none;
+    box-shadow: inset 0 1px rgba(0, 0, 0, 0.05),
+    inset 0 2px 2px rgba(0, 0, 0, 0.3),
+    0 1px rgba(255, 255, 255, 0.06);
+}
+
+.main .active, .main div ul li a {
+    background-color: #225;
+}
+
+.main .active a {
+    color: #fff;
+}
+
+.main .time {
+    margin: 10% 10%;
+    padding: 1% 0 0 3%;
+}
+
+.main div ul li {
+    width: 71px;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 0 -3px;
+}
+
+.main .nav {
+    margin: 10px 0;
+}
+
+.main .nav span {
+    margin-left: 20%;
+    padding-right: 10px;
+}
+
+.item span {
+    margin-left: 10px;
+}
+
+.list {
+    width: 70%;
+    background-color: rgba(4, 4, 4, 1);
+}
+
+.list table thead {
+    background: #000;
+}
+
+.list table tr td img {
+    width: 42px;
+    height: 42px;
+    -webkit-border-radius: 50%;
+}
+
+.progress {
+    width: 250px;
+    height: 8px;
+}
+
+.table-info {
+    width: 100%;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+    background-color: #11212f;
+}

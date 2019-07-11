@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>玩家列表</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/player.css"/>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation" id="nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">菜单切换</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand"><img src="img/lolmax.png" alt=""/></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="index.html">首页</a></li>
+                <li class=""><a href="hero.html">英雄</a></li>
+                <li><a href="items.html">物品</a></li>
+                <li class="active"><a href="player.html">玩家</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="back-img-bar">
+    <div class="background">
+        <div class="search">
+            <h3>段位榜</h3>
+            <input type="text" placeholder="搜索召唤师、昵称们、物品..."/>
+            <a href="#"><i class="icon-search"></i></a>
+        </div>
+    </div>
+</div>
+<nav class="navbar navbar-default" role="navigation" id="nav-menu">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">菜单切换</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="">段位榜</a></li>
+                <li class=""><a href="">隐藏分排行</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="main">
+    <div class="time nav">
+        <ul class="list-inline">
+            <span>服务器:</span>
+            <li>
+                <select>
+                    <option>请选择</option>
+                    <option selected="selected" value="1">艾欧尼亚 电信一</option>
+                    <option value="2">比尔吉沃特 网通一</option>
+                    <option value="3">祖安 电信二</option>
+                    <option value="4">诺克萨斯 电信三</option>
+                    <option value="6">德玛西亚 网通二</option>
+                    <option value="5">班德尔城 电信四</option>
+                    <option value="7">皮尔特沃夫 电信五</option>
+                    <option value="8">战争学院 电信六</option>
+                    <option value="9">弗雷尔卓德 网通三</option>
+                    <option value="10">巨神峰 电信七</option>
+                    <option value="11">雷瑟守备 电信八</option>
+                    <option value="12">无畏先锋 网通四</option>
+                    <option value="13">裁决之地 电信九</option>
+                    <option value="14">黑色玫瑰 电信十</option>
+                    <option value="15">暗影岛 电信十一</option>
+                    <option value="17">钢铁烈阳 电信十二</option>
+                    <option value="16">恕瑞玛 网通五</option>
+                    <option value="19">均衡教派 电信十三</option>
+                    <option value="18">水晶之痕 电信十四</option>
+                    <option value="21">教育网专区 教育一</option>
+                    <option value="22">影流 电信十五</option>
+                    <option value="23">守望之海 电信十六</option>
+                    <option value="20">扭曲丛林 网通六</option>
+                    <option value="24">征服之海 电信十七</option>
+                    <option value="25">卡拉曼达 电信十八</option>
+                    <option value="27">皮城警备 电信十九</option>
+                    <option value="26">巨龙之巢 网通七</option>
+                </select>
+
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="container list">
+            <table class="table-info table-striped table-hover">
+                <thead>
+                <tr>
+                    <th>玩家</th>
+                    <th class="text-center">段位</th>
+                    <th>胜点</th>
+                    <th>隐藏分</th>
+                </tr>
+                </thead>
+
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/21.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                    <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/1.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/2.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/3.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/4.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/5.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/6.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/7.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/8.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/9.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/11.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/12.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/13.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/14.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/15.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr class="item">
+                    <td style="width: 20%;"><img src="http://cdn.tgp.qq.com/pallas/images/usericon/16.png" alt=""/>
+                        <span>战旗真的好看</span>
+                    </td>
+                    <td>
+                        <span>最强王者</span>
+                    </td>
+                    <td>
+                        <div>90%</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div>3212</div>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                <span class="sr-only">40% 完成</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="first">
+        <a href="#nav" style="margin-left:47.4%;">
+            <i class="icon-chevron-up container"></i>
+        </a>
+    </div>
+    <div class="second">
+        <ul class="list-inline">
+            <li><a href=""><img src="img/max_logo3.png" alt=""/></a></li>
+            <li><a href=""><img src="img/lolmax.png" alt=""/></a></li>
+            <li><a href=""><img src="img/hosmax.png" alt=""/></a></li>
+        </ul>
+
+    </div>
+    <div class="third">
+        <ul class="navbar-nav left">
+            <li><a href="">© 2015 lolmax.com</a></li>
+            <li><a href="">反馈群: 469379836</a></li>
+            <li><a href=""><i class="icon-apple"></i></a></li>
+            <li><a href=""><i class="icon-android"></i></a></li>
+            <li><a href=""><i class="icon-desktop"></i></a></li>
+        </ul>
+        <ul class="navbar-nav middle" id="middle">
+            <li><img src="img/logo_01.png" alt=""/></li>
+        </ul>
+        <ul class="navbar-nav right">
+            <li><a href=""><i class="icon-weibo"></i></a></li>
+            <li><a href=""><i class="icon-twitter-sign"></i></a></li>
+            <li><a href=""><i class="icon-envelope"></i></a></li>
+            <li><a href="">加入我们</a></li>
+            <li><a href="">录入数据</a></li>
+        </ul>
+    </div>
+</footer>
+<script>
+    function show() {
+        $("#middle").addClass("show", 2000);
+    }
+    function hide() {
+        $("#middle").removeClass("show", 2000);
+    }
+    setInterval(show(), 1000);
+    setTimeout(hide(), 1000);
+</script>
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span style="position:fixed;bottom:0;" id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+
+</body>
+</html>

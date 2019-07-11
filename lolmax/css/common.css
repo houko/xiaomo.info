@@ -1,0 +1,185 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    color: #666;
+    font-family: Verdana, Microsoft YaHei, Simsun, serif;
+    background: rgb(10, 10, 10);
+    margin-bottom: 100px;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+
+ul > li a:hover {
+    color: #fff;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+em {
+    font-style: normal;
+}
+
+input, button, select, textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+p {
+    text-align: justify;
+    text-justify: distribute;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f60;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 130px;
+    height: 21px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: darkgray;
+    font-size: 14px;
+}
+
+body {
+    margin: 50px auto;
+}
+
+.back-img-bar {
+    width: 1440px;
+    height: 160px;
+}
+
+.back-img-bar .background {
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+    background: url(../img/back.jpg);
+}
+
+.background .search input {
+    width: 380px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    position: relative;
+    left: 35%;
+    top: -.5em;
+    text-indent: 15px;
+    color: #fff;
+}
+
+.background .search i {
+    position: relative;
+    left: 32%;
+    top: -.3em;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h3 {
+    font-size: 30px;
+    color: #fff;
+    font-family: "雅黑宋体", "微软雅黑", "新宋体", "宋体", serif;
+    position: absolute;
+    left: 10%;
+    top: 11%;
+}
+
+.navbar-inverse {
+    background-color: #000;
+    border-color: #080808;
+}
+
+footer .first, footer .second, footer .third {
+    width: 1440px;
+    background: #000;
+}
+
+footer .first {
+    height: 30px;
+    margin: 0 auto;
+}
+
+footer .second {
+    height: 55px;
+}
+
+.second ul li img {
+    width: 97px;
+    height: 16px;
+    margin-left: 20px;
+}
+
+.second ul {
+    margin-left: 35%;
+}
+
+footer .third {
+    height: 45px;
+}
+
+.third .left {
+    margin-left: 12%;
+}
+
+.third .left li {
+    margin-left: 20px;
+}
+
+.third .left li i {
+    font-size: 15px;
+}
+
+.third .middle {
+    position: absolute;
+    left: 50%;
+}
+
+.third .show {
+    opacity: 0;
+}
+
+.third .middle img {
+    width: 48px;
+    height: 28px;
+}
+
+.third .right {
+    margin-left: 20%;
+}
+
+.third .right li {
+    margin-left: 30px;
+}
+
+.third .right li i {
+    font-size: 15px;
+}

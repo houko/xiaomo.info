@@ -1,0 +1,115 @@
+
+.maxTopMainBar {
+    height: 135px;
+    background: #000;
+    width: 1440px;
+}
+
+.maxMainContainer {
+    width: 100%;
+    height: 400px;
+    background: url(../img/1.jpg) center center;
+    position: absolute;
+    z-index: 2;
+}
+
+.main {
+    width: 100%;
+    height: 521px;
+    background-color: rgb(15, 15, 15);
+}
+
+.maxMainContainer .player {
+    position: relative;
+    top: 82%;
+    left: 28%;
+}
+
+.maxMainContainer .player ul li {
+    margin-left: 20px;;
+}
+
+.maxMainContainer .player ul li img {
+    width: 52px;
+    height: 52px;
+    -webkit-border-radius: 50%;
+}
+
+.maxMainContainer .logo img {
+    width: 280px;
+    height: 50px;
+    position: relative;
+    top: 5em;
+    left: 38%;
+}
+
+.maxMainContainer .search input {
+    width: 380px;
+    height: 42px;
+    opacity: .5;
+    border-radius: 20px;
+    background: #000;
+    border: 2px solid #f2f2f2;
+    position: relative;
+    left: 35%;
+    top: 10em;
+    text-indent: 15px;
+    color: #fff;
+}
+
+.maxMainContainer .search i {
+    position: relative;
+    left: 32%;
+    top: 6.1em;
+    font-size: 20px;
+}
+
+.maxMainContainer .bar {
+    position: absolute;
+    left: 40%;
+    top: 70%;
+}
+
+.maxMainContainer .bar .icon-fire {
+    font-size: 30px;
+    text-indent: 15px;
+    color: dodgerblue;
+}
+
+.maxMainContainer .bar ul li .fire {
+    color: dodgerblue;
+    font-size: 12px;
+}
+
+.maxMainContainer .bar .icon-bar-chart {
+    font-size: 30px;
+    text-indent: 15px;
+    color: palegreen;
+}
+
+.maxMainContainer .bar ul li .chart {
+    color: palegreen;
+    font-size: 12px;
+}
+
+.maxMainContainer .bar .icon-paper-clip {
+    font-size: 30px;
+    text-indent: 15px;
+    color: deeppink;
+}
+
+.maxMainContainer .bar ul li .clip {
+    color: deeppink;
+    font-size: 12px;
+}
+
+.maxMainContainer .bar .icon-columns {
+    font-size: 30px;
+    text-indent: 15px;
+    color: orangered;
+}
+
+.maxMainContainer .bar ul li .columns {
+    color: orangered;
+    font-size: 12px;
+}
