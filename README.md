@@ -1,0 +1,2 @@
+# xiaomo.info
+index
