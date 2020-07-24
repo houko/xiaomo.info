@@ -1,2 +1,2 @@
 # xiaomo.info
-index
+index page
