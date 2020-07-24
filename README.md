@@ -1,2 +1,0 @@
-# xiaomo.info
-index page
