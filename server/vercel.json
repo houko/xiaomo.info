@@ -1,6 +1,25 @@
 {
   "builds": [
-    { "public": "*.html", "use": "@vercel/static" },
-    { "routes": "*.js", "use": "@vercel/node" }
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "headers": {
+        "cache-control": "s-maxage=1000"
+      },
+      "dest": "/routes/index.js"
+    },
+    {
+      "src": "/users",
+      "dest": "/routes/users.js"
+    }
   ]
 }
