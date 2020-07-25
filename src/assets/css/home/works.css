@@ -1,0 +1,28 @@
+.content_works {
+    width: 100%;
+    height: 100%;
+  }
+  .works_box {
+    width: 1450px;
+    height: 100%;
+    /* background: #ccc; */
+    text-align: center;
+    margin: 80px auto;
+  }
+  .works_box p {
+    color: #c0c0c0;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing:10px;
+    font-size: 24px;
+  }
+  .ban_box {
+      width: 290px;
+      height: 300px;
+      display: inline-block;
+      margin: 28px;
+  }
+  .ban_box img {
+      width: 100%;
+      height: 100%;
+  }
