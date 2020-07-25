@@ -1,0 +1,72 @@
+.battle_box {
+    width: 100%;
+    height: 100%;
+    background:	#E9EFED;
+    text-align: center;
+}
+.battle_head {
+    padding-top: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+.battle_head p {
+    color: #c0c0c0;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing:10px;
+    font-size: 24px;
+}
+.banner_box {
+    margin: 0px 120px;
+}
+.bottom_box {
+    width: 100%;
+}
+.bottom_box img {
+    width: 100%;
+    height: 340px;
+}
+
+.left_box  {
+    display: inline-block;
+    vertical-align: top
+}
+.left_box>div {
+    padding: 50px;
+}
+.right_box {
+    display: inline-block;
+    vertical-align: top
+}
+.right_box>div {
+    padding: 50px;
+}
+.progress {
+    width: 360px;
+    display: inline-block;
+
+}
+.skill {
+    width: 56px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    background: plum;
+    font-size: 14px;
+    color: #fff;
+
+}
+.progress /deep/ .el-progress-bar__outer {
+     height: 22px !important;
+ }
+.bulb {
+    display: inline-block;
+    width: 375px;
+    height: 480px;
+    padding: 0px 70px;
+}
+.bulb img {
+     width: 375px;
+    height: 480px;
+}
