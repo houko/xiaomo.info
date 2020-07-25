@@ -6,17 +6,18 @@ import router from './router'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+
 Vue.use(ElementUI);
 // import style
 import 'swiper/swiper-bundle.css'
- 
-Vue.use(VueAwesomeSwiper, /* { default options with global component } */)
-Vue.config.productionTip = false
+
+Vue.use(VueAwesomeSwiper, /* { default options with global component } */);
+Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  components: { App },
+  components: {App},
   template: '<App/>'
-})
+});

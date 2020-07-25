@@ -1,7 +1,7 @@
 .head {
     width: 100%;
     height: 100%;
-    background: url("src/assets/img/Home/bg.jpg") no-repeat;
+    background: url("../../img/Home/bg.jpg") no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
     -moz-background-size: 100% 100%;
@@ -10,7 +10,7 @@
     text-align: center;
     padding-top: 17%;
   }
-
+  
   .content_box >img{
     width: 140px;
     height: 140px;
