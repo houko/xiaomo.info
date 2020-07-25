@@ -2,12 +2,14 @@
   "name": "xiaomo-server",
   "alias": "xiaomo.server",
   "builds": [
-    { "src": "public/**/*", "use": "@now/static" },
-    { "src": "api/**/*.js", "use": "@now/node-server" }
-  ],
-  "routes": [
-    { "src": "/", "dest": "routes/index.js" },
-    { "src": "/users", "dest": "routes/users.js" }
+    {
+      "src": "public/**/*",
+      "use": "@now/static"
+    },
+    {
+      "src": "routes/**/*.js",
+      "use": "@now/node-server"
+    }
   ],
   "version": 2
 }
