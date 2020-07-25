@@ -8,5 +8,14 @@
       "src": "*.js",
       "use": "@vercel/node"
     }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "headers": {
+        "cache-control": "s-maxage=1000"
+      },
+      "dest": "app.js"
+    }
   ]
 }
