@@ -11,11 +11,11 @@
   ],
   "routes": [
     {
-      "src": "/server/.*",
+      "src": "/.*",
       "headers": {
         "cache-control": "s-maxage=1000"
       },
-      "dest": "/server/app.js"
+      "dest": "/app.js"
     }
   ]
 }
