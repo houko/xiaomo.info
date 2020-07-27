@@ -6,6 +6,7 @@
     "start": "node bin/www",
     "dev": "./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www",
+    "prod": "vercel --prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
