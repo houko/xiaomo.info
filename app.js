@@ -47,7 +47,7 @@ app.use(selfIntroduce.routes()).use(selfIntroduce.allowedMethods());
 app.use(works.routes()).use(works.allowedMethods());
 
 app.use(koaSwagger({
-    routePrefix: '/swagger', // host at /swagger instead of default /docs
+    routePrefix: '/', // host at /swagger instead of default /docs
     swaggerOptions: {
         url: '/swagger.json', // example path to json
     },

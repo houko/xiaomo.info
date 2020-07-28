@@ -13,7 +13,7 @@ const swaggerDefinition = {
 
 const options = {
     swaggerDefinition,
-    apis: ['./routes/*.js'], // 写有注解的router的存放地址
+    apis: ['./controllers/*.js'], // 写有注解的router的存放地址
 };
 
 const swaggerSpec = swaggerJSDoc(options);
