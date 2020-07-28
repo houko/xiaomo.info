@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "element-ui": "^2.13.2",
+    "mysql": "^2.18.1",
     "swiper": "^6.0.4",
     "vue": "^2.5.2",
     "vue-awesome-swiper": "^4.1.1",
@@ -50,7 +51,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": ">=3.3.2",
-    "webpack-dev-server": ">=3.1.11",
+    "webpack-dev-server": "^2.9.7",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
