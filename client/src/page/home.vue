@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+  <leimu></leimu>
     <swiper :options="swiperOption" ref="mySwiper">
       <!-- slides -->
       <swiper-slide class="ban_box">
@@ -15,6 +16,7 @@
         <aboutme></aboutme>
       </swiper-slide>
     </swiper>
+
   </div>
 </template>
 
@@ -25,13 +27,15 @@ import personal from "@/components/Home/personal";
 import works from "@/components/Home/works";
 import battle from "@/components/Home/battle";
 import aboutme from "@/components/Home/about";
+import leimu from "@/components/Common/leimu";
 
 export default {
   components: {
     personal,
     works,
     battle,
-    aboutme
+    aboutme,
+    leimu
   },
   data() {
     return {

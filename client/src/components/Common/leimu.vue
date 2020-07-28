@@ -1,4 +1,5 @@
 <template>
+<div>
 <div id="landlord" style="left:5px;bottom:0px;">
     <div class="message" style="opacity:0"></div>
     <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
@@ -26,6 +27,8 @@
     </div>
 </div>
 <div id="open_live2d">召唤蕾姆</div>
+</div>
+
 </template>
 
 <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -35,8 +38,8 @@
 export default {
     data() {
         return {
-         message_Path:'live2d/';//资源目录，如果目录不对请更改
-         talkAPI : "";//如果有类似图灵机器人的聊天接口请填写接口路径
+         message_Path:'live2d/',//资源目录，如果目录不对请更改
+         talkAPI : "",//如果有类似图灵机器人的聊天接口请填写接口路径
         }
     },
     created(){
