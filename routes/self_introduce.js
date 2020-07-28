@@ -11,7 +11,7 @@ router.get('/', async (ctx, next) => {
 });
 
 router.get('/list', async (ctx, next) => {
-    ctx.body = selfIntroduceService.list();
+    ctx.body = await selfIntroduceService.list();
 });
 
 module.exports = router;

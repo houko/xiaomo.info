@@ -10,7 +10,7 @@ router.get('/', async (ctx, next) => {
 });
 
 router.get('/list', async (ctx, next) => {
-    ctx.body = concatService.list();
+    ctx.body = await concatService.list();
 });
 
 module.exports = router;
