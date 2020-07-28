@@ -1,4 +1,4 @@
-//mysqlConfig.js
+//query.js
 const mysql = require('mysql');
 const config = require('./defaultConfig');
 

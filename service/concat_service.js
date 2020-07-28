@@ -1,4 +1,4 @@
-const allServices = require('../db/mysqlConfig');
+const allServices = require('../db/query');
 
 let concatService = {
     list: function () {

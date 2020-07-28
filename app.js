@@ -6,12 +6,13 @@ const bodyparser = require('koa-bodyparser');
 const logger = require('koa-logger');
 const koaSwagger = require('koa2-swagger-ui');
 const swagger = require('./utils/swagger');
+const cors = require('koa2-cors');
 
-const users = require('./routes/users');
-const ability = require('./routes/ability');
-const selfIntroduce = require('./routes/self_introduce');
-const works = require('./routes/works');
-const concat = require('./routes/concat');
+const users = require('./conrollers/users');
+const ability = require('./conrollers/ability');
+const selfIntroduce = require('./conrollers/self_introduce');
+const works = require('./conrollers/works');
+const concat = require('./conrollers/concat');
 
 // error handler
 onerror(app);
@@ -34,6 +35,9 @@ app.use(async (ctx, next) => {
     console.log(`${ctx.method} ${ctx.url} - ${ms}ms`)
 });
 
+// cors
+app.use(cors());
+
 // routes
 app.use(swagger.routes(), swagger.allowedMethods());
 app.use(users.routes()).use(users.allowedMethods());
@@ -42,16 +46,12 @@ app.use(concat.routes()).use(concat.allowedMethods());
 app.use(selfIntroduce.routes()).use(selfIntroduce.allowedMethods());
 app.use(works.routes()).use(works.allowedMethods());
 
-app.use(
-    koaSwagger({
-        routePrefix: '/', //
-        swaggerOptions: {
-            url: '/swagger.json', // example path to json 其实就是之后swagger-jsdoc生成的文档地址
-        },// host at /swagger instead of default /docs
-    }),
-);
-
-
+app.use(koaSwagger({
+    routePrefix: '/swagger', // host at /swagger instead of default /docs
+    swaggerOptions: {
+        url: '/swagger.json', // example path to json
+    },
+}));
 // error-handling
 app.on('error', (err, ctx) => {
     console.error('server error', err, ctx)
