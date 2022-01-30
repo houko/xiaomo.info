@@ -2,7 +2,7 @@
   <div class="head">
     <div class="content_box">
       <img src="https://image.xiaomo.info/logo/avatar.png" alt />
-      <div class="introduce">生命不息奋斗不止（开发工程师--小莫）</div>
+      <div class="introduce">生命不息折腾不止（云计算工程师--小莫）</div>
       <div class="content_img_box">
         <div class="img_box" v-for="res in imgList" :key="res.name">
             <img @click="link(res.link)" class="img_icon" :src="res.icon" alt  :title="res.name"/>
